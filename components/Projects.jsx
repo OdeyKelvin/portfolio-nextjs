@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import propertyImg from '../public/assets/projects/property.jpg';
 import weatherImg from '../public/assets/projects/weather.png';
 import discordcloneImg from '../public/assets/projects/discordclone.png';
 import nupatdashboardImg from '../public/assets/projects/nupatdashboard.png';
