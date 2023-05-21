@@ -17,7 +17,7 @@ const Nupatdashboard = () => {
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>Netflix App</h2>
+          <h2 className='py-2'>Nupatdashboard</h2>
           <h3>React JS / Tailwind </h3>
         </div>
       </div>
@@ -27,9 +27,8 @@ const Nupatdashboard = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-          This app was built using React JS and is hosted on Vercel. Users
-            are able to search weather properties based on an Address, City, You will
-            be able to view weather information such as: Temperature forcast, humidity, wind, pressure, lowest/highest, sunrise/sunset etc.
+          This app was built using React JS. this App has a  centralized interface that provides a summary view of important information, data, and metrics. It serves as a visual representation of key performance indicators (KPIs) and facilitates data-driven decision-making.
+          it presents data in the form of charts, graphs, tables, and other visual elements to make it easier for users to quickly understand and analyze information. 
 
           </p>
           <a

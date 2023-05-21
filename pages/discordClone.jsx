@@ -27,9 +27,8 @@ const discordClone = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-          This app was built using React JS and is hosted on Vercel. Users
-            are able to search weather properties based on an Address, City, You will
-            be able to view weather information such as: Temperature forcast, humidity, wind, pressure, lowest/highest, sunrise/sunset etc.
+          This app was built using React JS and is hosted on Vercel. the app allow users to connect and interect with others through text, voice and video.
+          Users can create or join servers, which are dedicated spaces for discussions centered around specific topics. Within these servers, individuals can engage in real-time conversations through text channels, share media files, and participate in voice or video calls.
   
           </p>
           <a

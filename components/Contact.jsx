@@ -22,7 +22,7 @@ const Contact = () => {
             <div className='lg:p-4 h-full '>
               <div>
                 <Image
-                  className='rounded-xl hover:scale-105 ease-in duration-300'
+                  className=' w-40 md:w-full rounded-xl hover:scale-105 ease-in duration-300'
                   src={ContactImg2}
                   alt='/'
                 />
