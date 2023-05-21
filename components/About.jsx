@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div id='about' className='w-full md:h-screen p-2 flex items-center py-16'>
       <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
-        <div className='col-span-2 mt-[-5rem] '>
+        <div className='col-span-2 mt-[-7rem] '>
           <p className='uppercase text-xl tracking-widest text-[#5e17eb] ml-3 '>
             About
           </p>
@@ -28,8 +28,8 @@ const About = () => {
             </p>
           </Link>
         </div>
-        <div className='w-40 ml-3 md:w-full m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
-          <Image height={400}   src={ ContactImg2} className='rounded-xl md:w-full' alt='/' />
+        <div className='w-40 hidden ml-3 md:w-full m-auto shadow-xl shadow-gray-400 rounded-xl md:flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
+          <Image height={400}   src={ ContactImg2} className='rounded-xl hidden md:block md:w-full' alt='/' />
         </div>
       </div>
     </div>
