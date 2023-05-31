@@ -4,6 +4,7 @@ import React from 'react';
 import weatherImg from '../public/assets/projects/weather.png';
 import discordcloneImg from '../public/assets/projects/discordclone.png';
 import nupatdashboardImg from '../public/assets/projects/nupatdashboard.png';
+import yogarenaImg from '../public/assets/projects/yogarena.png';
 import twitchImg from '../public/assets/projects/twitch.jpg'
 import ProjectItem from './ProjectItem';
 
@@ -40,6 +41,14 @@ const Projects = () => {
             title='Twitch UI'
             backgroundImg={twitchImg}
             projectUrl='/twitch'
+            tech='Next JS'
+
+          />
+
+<ProjectItem
+            title='Twitch UI'
+            backgroundImg={yogarenaImg}
+            projectUrl='/Yogaarena'
             tech='Next JS'
 
           />

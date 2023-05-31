@@ -1,8 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import AboutImg from '../public/assets/about.jpg';
-import ContactImg2 from '../public/assets/contact2.jpeg';
+import ContactImg2 from '../public/assets/contact3.jpg';
 const About = () => {
   return (
     <div id='about' className='w-full md:h-screen p-2 flex items-center py-16'>
@@ -15,10 +14,14 @@ const About = () => {
           <p className='py-2 ml-2 text-gray-600'>
           I am a highly skilled and passionate front-end developer with 2+ years of experience in building 
           beautiful and user-friendly web applications.
-           I have a strong foundation in HTML, CSS, and JavaScript, REACTJS, NEXTJS, TYPESCRIPT and I constantly 
+           I have a strong foundation in HTML, CSS, JavaScript, REACTJS, NEXTJS, TYPESCRIPT. I constantly 
            strive to stay updated with the latest web development trends and technologies. 
            With a keen eye for design and a commitment to writing clean and maintainable code, 
-           I create engaging and responsive interfaces that deliver exceptional user experiences. 
+           I create engaging and responsive interfaces that deliver exceptional user experiences.
+           am passionate about delivering exceptional user experiences through innovative design and seamless functionality. With a strong focus on industry best practices, I strive to create web solutions that not only meet client goals but also exceed expectations in terms of performance and user engagement.
+
+
+
           </p>
           <p className='py-2 text-gray-600'>
                     </p>
