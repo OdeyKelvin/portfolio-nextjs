@@ -27,9 +27,7 @@ const weatherApp = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This app was built using React JS and is hosted on Vercel. Users
-            are able to search weather properties based on an Address, City, You will
-            be able to view weather information such as: Temperature forcast, humidity, wind, pressure, lowest/highest, sunrise/sunset etc.
+          The project is a weather app built using React.js, aiming to provide users with accurate and up-to-date weather information for their desired locations. The app will offer a visually appealing and user-friendly interface for users to access weather forecasts, current conditions, and other related data.
           </p>
           <a
             href='https://github.com/OdeyKelvin/Weather-App-rectjs-'

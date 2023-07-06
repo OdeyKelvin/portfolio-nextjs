@@ -18,7 +18,7 @@ const Yogaarena = () => {
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
           <h2 className='py-2'>Yogarena</h2>
-          <h3>React JS / Tailwind </h3>
+          <h3>Next JS / Tailwind </h3>
         </div>
       </div>
 
@@ -27,8 +27,7 @@ const Yogaarena = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-          This app was built using NextJS. this amazing App offers both in-person & online courses to all. it keeps the best-in-class teachers to teach yoga in most effective ways for both in-person & digital studios.
-          the App features a Contact & schedule page, it offers programs like teachers training and events like workshop & retreats.
+          The project is a Yoga UI application that aims to provide a user-friendly interface for practicing yoga and accessing related resources. The application focuses on creating an immersive and intuitive experience for yoga enthusiasts.
           </p>
           <a
             href='https://github.com/OdeyKelvin/Yoga-website'

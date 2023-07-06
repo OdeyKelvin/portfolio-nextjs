@@ -1,10 +1,10 @@
 import Image from 'next/image';
 import React from 'react';
-import nupatdashboardImg from '../public/assets/projects/nupatdashboard.png';
+import Scissors from  '@/public/assets/projects/Scissors.png'
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
-const Nupatdashboard = () => {
+const Yogaarena = () => {
   return (
     <div className='w-full'>
       <div className='w-screen h-[50vh] relative'>
@@ -13,12 +13,12 @@ const Nupatdashboard = () => {
           className='absolute z-1'
           layout='fill'
           objectFit='cover'
-          src={nupatdashboardImg}
+          src={Scissors}
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>Nupatdashboard</h2>
-          <h3>React JS / Tailwind </h3>
+          <h2 className='py-2'>Scissors</h2>
+          <h3>Nextjs JS / Tailwind </h3>
         </div>
       </div>
 
@@ -27,19 +27,17 @@ const Nupatdashboard = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-          This app was built using React JS. this App has a  centralized interface that provides a summary view of important information, data, and metrics. It serves as a visual representation of key performance indicators (KPIs) and facilitates data-driven decision-making.
-          it presents data in the form of charts, graphs, tables, and other visual elements to make it easier for users to quickly understand and analyze information. 
-
+          The project is an app built using Next.js, a popular framework for React applications. The app's main feature is URL shortening, which allows users to shorten long URLs for their business or events. By generating unique, shortened URLs, the app helps improve the manageability and shareability of links. It also includes URL redirection functionality, ensuring that when a shortened URL is accessed, users are seamlessly redirected to the original long URL. The app likely involves implementing a user interface for URL entry and display, logic for generating and storing shortened URLs, and handling various edge cases. The ultimate goal is to provide a reliable and efficient URL shortening service to enhance branding and user experience.
           </p>
           <a
-            href='https://github.com/OdeyKelvin/nupat-dashboard'
+            href='https://github.com/Nneka-Chukwuemeka/Scissors'
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4 mr-8'>Code</button>
           </a>
           <a
-            href='https://nupat-dashboardd.vercel.app//'
+            href='https://scissors-sooty.vercel.app/'
             target='_blank'
             rel='noreferrer'
           >
@@ -54,7 +52,7 @@ const Nupatdashboard = () => {
                 <RiRadioButtonFill className='pr-1' /> React
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Tailwind
+                <RiRadioButtonFill className='pr-1' /> Nextjs
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Javascript
@@ -70,4 +68,4 @@ const Nupatdashboard = () => {
   );
 };
 
-export default Nupatdashboard;
+export default Yogaarena;

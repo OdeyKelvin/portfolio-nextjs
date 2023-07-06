@@ -27,9 +27,7 @@ const discordClone = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-          This app was built using React JS and is hosted on Vercel. the app allow users to connect and interect with others through text, voice and video.
-          Users can create or join servers, which are dedicated spaces for discussions centered around specific topics. Within these servers, individuals can engage in real-time conversations through text channels, share media files, and participate in voice or video calls.
-  
+          The project is a Discord UI clone, aiming to recreate the user interface and functionality of the popular messaging and communication platform, Discord. The clone project seeks to provide a similar experience to Discord users while offering an opportunity for learning and practice.
           </p>
           <a
             href='https://github.com/OdeyKelvin/discordui'
@@ -39,7 +37,7 @@ const discordClone = () => {
             <button className='px-8 py-2 mt-4 mr-8'>Code</button>
           </a>
           <a
-            href='https://discordui-viwp.vercel.app//'
+            href='https://discordui-pi.vercel.app/'
             target='_blank'
             rel='noreferrer'
           >

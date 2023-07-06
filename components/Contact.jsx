@@ -1,15 +1,19 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import React, { useState } from 'react';
+import React, {useEffect}  from 'react';
 import { AiOutlineMail } from 'react-icons/ai';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 import ContactImg2 from '../public/assets/contact3.jpg';
-
+import Aos from 'aos';
+import "aos/dist/aos.css"
 const Contact = () => {
+  useEffect(()=>{
+    Aos.init({duration:2000});
+   },[])
   return (
-    <div id='contact' className='w-full lg:h-screen'>
+    <div data-Aos="fade-up" id='contact' className='w-full lg:h-screen'>
       <div className='max-w-[1240px] -mt-9 m-auto px-2 py-16 w-full '>
         <p className='text-xl tracking-widest uppercase text-[#5651e5]'>
           Contact

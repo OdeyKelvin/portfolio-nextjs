@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import React from 'react';
+import React,{useEffect} from 'react';
 import Html from '../public/assets/skills/html.png';
 import Css from '../public/assets/skills/css.png';
 import Javascript from '../public/assets/skills/javascript.png';
@@ -8,11 +8,14 @@ import Tailwind from '../public/assets/skills/tailwind.png';
 import Github from '../public/assets/skills/github1.png';
 import Firebase from '../public/assets/skills/firebase.png';
 import NextJS from '../public/assets/skills/nextjs.png'
-import AWS from '../public/assets/skills/aws.png';
-
+import Aos from 'aos';
+import "aos/dist/aos.css"
 const Skills = () => {
+  useEffect(()=>{
+    Aos.init({duration:2000});
+   },[])
   return (
-    <div id='skills' className='w-full lg:h-screen p-2'>
+    <div data-Aos="fade-up" id='skills' className='w-full lg:h-screen p-2'>
       <div className=' -mt-7 md:-mt-16 max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
         <p className='text-xl ml-2  tracking-widest uppercase text-[#5651e5]'>
           Skills
