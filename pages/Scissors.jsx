@@ -27,7 +27,7 @@ const Yogaarena = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-          The project is an app built using Next.js, a popular framework for React applications. The app's main feature is URL shortening, which allows users to shorten long URLs for their business or events. By generating unique, shortened URLs, the app helps improve the manageability and shareability of links. It also includes URL redirection functionality, ensuring that when a shortened URL is accessed, users are seamlessly redirected to the original long URL. The app likely involves implementing a user interface for URL entry and display, logic for generating and storing shortened URLs, and handling various edge cases. The ultimate goal is to provide a reliable and efficient URL shortening service to enhance branding and user experience.
+          The project is an app built using Next.js, a popular framework for React applications. The app&apos;s main feature is URL shortening, which allows users to shorten long URLs for their business or events. By generating unique, shortened URLs, the app helps improve the manageability and shareability of links. It also includes URL redirection functionality, ensuring that when a shortened URL is accessed, users are seamlessly redirected to the original long URL. The app likely involves implementing a user interface for URL entry and display, logic for generating and storing shortened URLs, and handling various edge cases. The ultimate goal is to provide a reliable and efficient URL shortening service to enhance branding and user experience.
           </p>
           <a
             href='https://github.com/Nneka-Chukwuemeka/Scissors'
