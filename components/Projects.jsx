@@ -14,7 +14,7 @@ const Projects = () => {
     Aos.init({duration:2000});
    },[])
   return (
-    <div data-Aos="fade-down" id='projects' className='w-full'>
+    <div data-Aos="fade-up" id='projects' className='w-full'>
       <div className='max-w-[1240px] md:-mt-24 mx-auto px-2 py-16'>
         <p className='text-xl tracking-widest uppercase text-[#5e17eb]'>
           Projects

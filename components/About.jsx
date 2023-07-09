@@ -9,7 +9,7 @@ const About = () => {
     Aos.init({duration:2000});
    },[])
   return (
-    <div data-Aos="fade-down" id='about' className='w-full md:h-screen p-2 flex items-center py-16'>
+    <div data-Aos="fade-up" id='about' className='w-full md:h-screen p-2 flex items-center py-16'>
       <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
         <div className='col-span-2 mt-[-7rem] '>
           <p className='uppercase text-xl tracking-widest text-[#5e17eb] ml-3 '>

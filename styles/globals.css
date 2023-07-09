@@ -35,7 +35,15 @@ html {
     @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white
   }
 
-
-
-  
 }
+#nprogress.bar{
+  
+height: 3px !important;
+background: var(blue) !important;
+}
+#nprogress.peg{
+
+box-shadow: 0 0 10px var(red), 0 0 5px var(red);
+  }
+  
+

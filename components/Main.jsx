@@ -1,12 +1,16 @@
 import Link from 'next/link';
-import React from 'react';
+import React,{useEffect} from 'react';
 import { AiOutlineMail } from 'react-icons/ai';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
-
+import Aos from 'aos';
+import "aos/dist/aos.css"
 const Main = () => {
+  useEffect(()=>{
+    Aos.init({duration:2000});
+   },[])
   return (
-    <div id='home' className='w-full h-screen text-center'>
+    <div data-Aos="fade-up" id='home' className='w-full h-screen text-center'>
       <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
         <div>
           <p className='uppercase text-sm tracking-widest text-gray-600'>
