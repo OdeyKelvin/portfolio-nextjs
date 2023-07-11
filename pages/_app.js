@@ -1,17 +1,28 @@
 import { useEffect, useState } from 'react';
 import Navbar from '../components/Navbar';
 import '../styles/globals.css';
-import "nprogress/nprogress.css";
-import NProgress from 'nprogress';
-import { Router } from 'next/router';
-Router.events.on("routeChangeStart", ()=>NProgress.start());
-Router.events.on("routeChangeComplete", ()=>NProgress.done());
-Router.events.on("routeChangeError", ()=>NProgress.done());
+import '../styles/loader.css'
 function MyApp({ Component, pageProps }) {
+  const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(true);
+    }, 3000);
+  }, []);
+
   return (
     <>
-      <Navbar />
-      <Component {...pageProps} />
+      {loading ? (
+        <>
+          <Navbar />
+          <Component {...pageProps} />
+        </>
+      ) : (
+        <div className='w-screen bg-black  h-screen left-0 top-0 flex flex-col justify-center'>
+        <div className='loader  mx-auto w-10/12'></div>
+       </div>
+      )}
     </>
   );
 }

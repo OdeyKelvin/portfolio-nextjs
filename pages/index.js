@@ -6,7 +6,6 @@ import Projects from '../components/Projects';
 import Skills from '../components/Skills';
 import Navbar from '../components/Navbar';
 import React from 'react';
-import Loader from 'react-loaders';
 
 export default function Home() {
   return (
@@ -22,7 +21,6 @@ export default function Home() {
       <Skills />
       <Projects />
       <Contact />
-      <Loader/>
     </div>
   );
 }
